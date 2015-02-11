@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+.writing{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 3px;
+    
+    
+}
+.bold{
+    font-weight: 600;
+}
+
+header{
+    width:90%;
+    height:  20%;
+    margin: auto;
+    overflow: auto;
+}
+
+.container{
+    clear: both;
+    width: 90%;
+    height: 70%;
+    margin: 4% auto;
+}
+
+.image{
+    width: 135px;
+    height: 20%;
+    min-height: 135px;
+    min-width: 135px;
+    float: left;
+    margin: 5%;
+}
+
+.welcome{
+    bottom: 0;
+    float: right;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+
+footer{
+    height: 10%;
+    width:90%;
+    margin: 0 5% 0 5%;
+}
+
+.bottom{  
+    clear: both;
+    width: 90%;
+    border-top: 1px solid black;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.terms{    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link{
+    display: inline-block;
+    margin: 2%;
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+    
+}
+
